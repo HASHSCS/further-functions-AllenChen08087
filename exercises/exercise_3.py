@@ -2,7 +2,16 @@
 
 def gcd(a, b):
     # Your code here
-    pass
+    if a > b:
+        c = b
+    if a < b:
+        c=a
+    d = 1;
+    for i in range (1,c+1,1):
+        if (a%i == 0) and (b%i == 0):
+            d =i;
+    return d
+
 
 # Unit tests
 import unittest

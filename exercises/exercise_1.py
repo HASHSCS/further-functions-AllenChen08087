@@ -4,6 +4,7 @@
 def calculate_area(shape, *args):
     # Your code here
     pass
+    
 
 # Unit tests
 import unittest
