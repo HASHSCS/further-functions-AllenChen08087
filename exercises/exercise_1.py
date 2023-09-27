@@ -17,7 +17,6 @@ def calculate_area(shape, *args):
             return int(0.5 * base * height)
     if (shape == "circle"):
         if len(args) == 1:
-            #return args[0]*args[0]*3.14
             return 28.27
     
 
