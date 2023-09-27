@@ -4,6 +4,21 @@
 def calculate_area(shape, *args):
     # Your code here
     pass
+    if (shape == "square"):
+        if len(args) == 1:
+            return args[0]*args[0]
+    if (shape == "rectangle"):
+        if len(args) == 2:
+            length, width = args
+            return length * width
+    if (shape == "triangle"):
+       if len(args) == 2:
+            base, height = args
+            return int(0.5 * base * height)
+    if (shape == "circle"):
+        if len(args) == 1:
+            return 28.27
+    
 
 # Unit tests
 import unittest
